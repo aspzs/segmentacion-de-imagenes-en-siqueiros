@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: 100px;
+      }
+    .title {
+        font-size: 80px;
+        padding-top: 30px;
+        margin-bottom: 80px;
+      }
+
+    img {
+        width: auto;
+        height: auto;
+      }
+    .table-container {
+        width: 100%;
+        }
+  }
 
 body {
     background-color: #333;
@@ -107,21 +125,3 @@ padding: 10px;
 padding-left: 20px;
 }
 
-/* @media screen and (max-width: 480px) {
-    .navbar {
-        height: 100px;
-      }
-    .title {
-        font-size: 80px;
-        padding-top: 30px;
-        margin-bottom: 80px;
-      }
-
-    img {
-        width: auto;
-        height: auto;
-      }
-    .table-container {
-        width: 100%;
-        }
-  } */
